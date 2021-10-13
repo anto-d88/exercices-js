@@ -17,8 +17,8 @@ Ici nous avons une constante date `birthday` et l'`age` est calculé à partir d
 Serait-il juste d'utiliser des majuscules pour `birthday`? Pour `age`? Ou même pour les deux ?
 
 ```js
-const BIRTHDAY = '18.04.1982'; // créer en majuscule ?
+const BIRTHDAY = '18.04.1982'; // créer en majuscule ? non
 
-const AGE = someCode(BIRTHDAY); // créer en majuscule ?
+const AGE = someCode(BIRTHDAY); // créer en majuscule ? oui ont écrit la variable en majuscule car  c'est un alias pour une valeur " codées en dur "
 ```
 
