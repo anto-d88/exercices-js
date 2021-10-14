@@ -4,7 +4,7 @@
 
 Convertir ce Boolean en String sans en changer la valeur
 ```js
-let value = true;
+let value = true; // let value = true + "";
 alert(typeof value);
 
 ```
@@ -13,7 +13,7 @@ alert(typeof value);
 
 Convertir ce string en Num sans en changer la valeur
 ```js
-let str = "123";
+let str = "123";     // let str = +"123"; 
 alert(typeof str);
 
 ```
@@ -22,7 +22,6 @@ alert(typeof str);
 
 convertir ce num en Bool et afficher un bool true et un false sans utiliser les termes "true" et "false"
 ```js
-let nb = 1;
+let nb = 1;   
 alert(typeof nb);
 
-```

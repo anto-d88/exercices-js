@@ -11,8 +11,8 @@ Cela ne fonctionne pas correctement. La sortie dans l'exemple ci-dessous est `12
 Pourquoi ? Réparez-le. Le résultat doit être `3`.
 
 ```js run
-let a = prompt("First number?", 1);
-let b = prompt("Second number?", 2);
+let a = prompt("First number?", 1);   // si il y a un string , le resulta de 
+let b = prompt("Second number?", 2);  //l'addition sera toujours string , il fautdonc les convertir // 
 
-alert(a + b); // 12
+alert(+a + +b); // 3    
 ```
