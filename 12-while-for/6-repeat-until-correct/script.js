@@ -1,4 +1,11 @@
-/*  Votre code Javascript vient ici:
-      - Vous pourrez visualiser le résultat en ouvrant index.html dans votre navigateur.
-      - N'oubliez pas de sauvegarder pour afficher les changements.
-*/
+let nombreSup100;
+
+      do {
+            nombreSup100 = prompt("Nombre superieur à 100", 0);
+
+      }
+
+      while (nombreSup100 <= 100 && nombreSup100);
+
+
+      

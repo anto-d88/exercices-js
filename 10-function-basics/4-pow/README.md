@@ -17,3 +17,27 @@ Créez une page Web qui demande (`prompt`)`x` et `n`, puis affiche le résultat 
 [demo]
 
 P.S. Dans cette tâche, la fonction ne doit prendre en charge que les valeurs naturelles de `n` : entiers supérieurs à `1`.
+
+let x = prompt("x?","");
+
+let n = prompt("n?","");
+
+    if (n < 1) {
+
+        alert( invalid );
+    } else {
+        alert( pow(x, n));
+    }
+
+function pow(x, n) {
+
+    let resultat = x;
+
+    for (let y = 1; y < n ; y++) {
+
+        resultat *= x; 
+    }
+
+    return resultat;
+}
+

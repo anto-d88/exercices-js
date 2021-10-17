@@ -13,3 +13,5 @@ while (i) {
   alert( i-- );
 }
 ```
+<!-- 1 car i est decrémenter de 1 en 1 jusqu'à 0 -->
+
