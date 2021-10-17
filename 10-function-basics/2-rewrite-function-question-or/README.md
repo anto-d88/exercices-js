@@ -23,4 +23,14 @@ Réécrivez-le, pour effectuer la même chose, mais sans `if`, et en une seule l
 Faites deux variantes de `checkAge` :
 
 1. En utilisant un opérateur point d'interrogation `?`
+
+function checkAge(age) {
+
+  return (age > 18) ? true : confirm('Did parents allow you?');
+}
 2. En utilisant OU `||`
+
+fuction checkAge(age) {
+
+  return (age > 18 ) || confirm('Dit parents allow you?);
+}
