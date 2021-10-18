@@ -33,7 +33,7 @@ function pow(x, n) {
 
     let resultat = x;
 
-    for (let y = 1; y < n ; y++) {
+    for (let i = 1; i < n ; ++) {
 
         resultat *= x; 
     }
